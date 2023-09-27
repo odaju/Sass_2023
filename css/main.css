@@ -1,9 +1,47 @@
-Body h1 {
-  color: pink;
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+  box-sizing: border-box;
 }
 
-/*
-h1{
-    color: blue;
+.float-l-50, body main, body header {
+  float: left;
+  width: 50%;
 }
-*//*# sourceMappingURL=main.css.map */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+body header {
+  padding: 1rem;
+}
+body header nav ul {
+  padding: 0;
+  margin: 0;
+}
+body header nav ul li {
+  display: inline-block;
+}
+body header #contact {
+  background-color: #bf4a00;
+  padding: 1rem;
+  float: right;
+}
+body header a {
+  text-decoration: none;
+}
+body main {
+  padding: 1rem;
+}
+body figure {
+  float: right;
+  width: 50%;
+  margin: 0;
+}
+body figure img {
+  width: 100%;
+}
+body footer {
+  clear: both;
+  padding: 1rem;
+}/*# sourceMappingURL=main.css.map */
