@@ -22,13 +22,17 @@ body header nav ul {
 body header nav ul li {
   display: inline-block;
 }
+body header #logo {
+  font-family: "Bebas Neue", sans-serif;
+}
 body header #contact {
-  background-color: #bf4a00;
+  background-color: #cc6c0b;
   padding: 1rem;
   float: right;
 }
-body header a {
-  text-decoration: none;
+body header #contact:hover {
+  background-color: #000;
+  color: #fff;
 }
 body main {
   padding: 1rem;
